@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+:root{
+  --y-purple: #5b21b6;
+  --y-orange: #fb923c;
+}
+
+/* small helper animation */
+.fade-in{ animation: fadeIn .6s ease both }
+@keyframes fadeIn{ from{opacity:0; transform: translateY(6px)} to{opacity:1; transform:none} }
