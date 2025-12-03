@@ -1,5 +1,5 @@
 import React from 'react'
-import LogoImage from '../assets/logo.jpeg'
+import LogoImage from '../assets/Logo.jpeg'
 const Logo = () => (
   <img src={LogoImage} alt="Youthly logo" className="h-12 w-12 object-contain"/>
 )
